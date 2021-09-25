@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.SideNavigation-Link {
+    @apply font-notosans text-sm font-medium text-gray-400 mb-8;
+}
+
+.SideNavigation-Link-Active {
+    @apply text-gray-800;
+}
+
+.btn {
+    @apply font-semibold rounded-md flex justify-center items-center;
+}
+
+.sm {
+    @apply py-1 px-4; 
+}
+
+.md {
+    @apply py-2 px-4; 
+}
+
+.lg {
+    @apply py-3 px-6; 
+}
